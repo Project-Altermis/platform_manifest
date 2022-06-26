@@ -1,6 +1,6 @@
 # <img src="https://github.com/Project-Altermis/platform_manifest/blob/Sanitize/Project-Altermis.png" width="512"> #
 
-### To Sync ###
+### 同步我们的源码/To Sync ###
 
 ```bash
 # Initialize local repository
@@ -10,14 +10,14 @@ repo init -u https://github.com/Project-Altermis/platform_manifest -b Sanitize
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --fail-fast
 ```
 
-### To Build ###
+### 开始编译吧/To Build ###
 
 ```bash
-# Set up environment
+# Set up environment(设置好环境˃ʍ˂)
 $ . build/envsetup.sh
 
-# Choose a target
+# Choose a target(选择目标(●'◡'●))
 $ lunch altermis_$device-userdebug
 
-# To build
+# Start(激动⊙∀⊙！)
 $ make bacon -j$(nproc --all)
