@@ -31,5 +31,8 @@
 
   <!-- vendor repos -->
   <project path="vendor/altermis" name="platform_vendor_altermis" remote="altermis" />
+  
+  <!-- prebuilt repos -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="platform_prebuilts_clang_host_linux-x86_clang-proton" remote="altermis" depth="1" />
 
 </manifest>
