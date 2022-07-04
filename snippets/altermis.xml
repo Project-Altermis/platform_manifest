@@ -20,6 +20,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- device repos -->
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="altermis" />
+
   <!-- framework repos -->
 
   <!-- hardware repos-->
