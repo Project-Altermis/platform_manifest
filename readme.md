@@ -21,3 +21,5 @@ $ lunch altermis_$device-userdebug
 
 # 开始享受编译的过程吧（To build）【可以考虑喝杯奶茶】
 $ make bacon -j$(nproc --all)
+
+#欢迎一起完善
